@@ -1,8 +1,7 @@
 function twoSum(array) {
     let left = 0;
     let rigth = array.length -1;
-    let rigth = array.length - 1;
-
+  
     while(left < right) {
         let sum = array[left] + array[rigth];
         if(sum === 0) {
@@ -16,3 +15,8 @@ function twoSum(array) {
     }
     return null; 
 }
+
+twoSum([-2,-1, 0,2,3])
+
+
+
