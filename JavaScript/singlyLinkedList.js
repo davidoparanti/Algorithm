@@ -3,7 +3,6 @@
 *-----------------------------------------*/
 
 class Node {
-
     constructor(val) {
         this.val = val;
         this.next = null;
@@ -31,4 +30,25 @@ class SinglyLinkedList {
         this.length++
         return this;
     }
+
+    pop() {
+        let  currentNode = this.head;
+        let newTail = currentNode;
+        while(currentNode.next){
+            newTail = currentNode;
+            currentNode = currentNode.next
+        }
+        this.tail = newTail;
+        this.tial.next = null;
+        this.length--;
+        if(this.length === 0) {
+            this.head = null;
+            this.tail = null;
+        }
+        return currentNode;
+    }
 }
+
+var list = new SinglyLinkedList();
+list.push('david');
+list.push('Kike'); 
