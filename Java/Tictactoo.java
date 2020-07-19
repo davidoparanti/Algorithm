@@ -21,6 +21,7 @@
 //         } 
 
 //         System.out.println("---------");
+//         Scanner.close();      
         
 //     }
 // }
@@ -30,10 +31,16 @@ import java.util.Scanner;
 
 class Tictactoo {
     public static void main(String[] args) {
-        int i = 0; 
-for (int k = 0; k < 100; k++) { 
-i = i++; 
-} 
-System.out.println(i);
+  
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+    if (i < 3) {
+        continue;
+    } else {
+        for (int j = 0; j < 5; j++) {
+            System.out.println(j);
+        }
+    }        
+}
     }
 }
