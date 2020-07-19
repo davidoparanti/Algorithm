@@ -28,11 +28,12 @@
 
 import java.util.Scanner;
 
-class Main {
+class Tictactoo {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // put your code here
-        int input = scanner.nextInt();
-        System.out.println(input < 10 );
+        int i = 0; 
+for (int k = 0; k < 100; k++) { 
+i = i++; 
+} 
+System.out.println(i);
     }
 }
