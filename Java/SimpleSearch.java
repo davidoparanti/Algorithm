@@ -1,34 +1,26 @@
 import java.util.*;
 import java.lang.Math;
-
 class SimpleSearch {
     public static void main(String[] args) {
-
-        Boolean contain = false;
-
-        System.out.println("Enter the the size of th umbrr" );
+        // put your code here
+        Boolean isSorted = true; 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter numbeaar");
         int number = sc.nextInt();
 
         String[] array = new String[number];
 
         System.out.println("Enter the word");
-        String word = sc.nextLine() + sc.nextLine();
-        array = word.split(" ");
-
-        System.out.println("Enter the search word");
-        String ww = sc.nextLine();
-
-        for(String w : array ){
-            if(w.equals(ww) ) {
-                contain = true;
-            }
-        }
-     
-     System.out.println(contain) ; 
-    }
+        String word = sc.nextLine(); 
         
+        array = word.split(" ");
+       for(int i = 0; i < array.length - 1; i++) {
             
-    
-   
-}
+           if(Integer.parseInt(array[i]) > Integer.parseInt(array[i + 1]) ) {
+               isSorted = false;
+           }
+       }
+
+     
+        System.out.println(isSorted);     
+    }
