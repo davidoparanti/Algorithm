@@ -19,9 +19,33 @@
 
 // 5
 import java.util.*;
+import java.lang.Math;
 class Longest {
 
     public static void main (String[] args) {
-        
+
+             Scanner sc = new Scanner(System.in); 
+            int length = sc.nextInt();
+            int[] inputArray = new int[length];
+
+            for(int i = 0; i < inputArray.length; i++) {
+                inputArray[i] = sc.nextInt();
+            }
+            int highest = 0;
+            int count = 1;
+            int first = 0;
+            
+            for(int i = 1; i < inputArray.length; i++) {
+                if( inputArray[i] > inputArray[first]) {
+                    count++;
+                    first++;
+                    
+                } else {
+                   highest = Math.max(highest, count);
+                    count = 1; 
+                }
+            } 
+            System.out.println();
+        System.out.println("The output is " + highest);
     }
 }
