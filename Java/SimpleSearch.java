@@ -13,18 +13,18 @@ class SimpleSearch {
         String[] array = new String[number];
 
         System.out.println("Enter the word");
-        String word = sc.nextLine();
+        String word = sc.nextLine() + sc.nextLine();
         array = word.split(" ");
 
         System.out.println("Enter the search word");
         String ww = sc.nextLine();
-        
+
         for(String w : array ){
-            if(w == ww ) {
+            if(w.equals(ww) ) {
                 contain = true;
             }
         }
-
+     
      System.out.println(contain) ; 
     }
         
