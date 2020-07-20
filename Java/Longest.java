@@ -42,7 +42,7 @@ class Longest {
                     
                 } else {
                    highest = Math.max(highest, count);
-                    count = 1; 
+                    count = 2; 
                 }
             } 
             System.out.println();
