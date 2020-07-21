@@ -1,5 +1,5 @@
 import java.util.*;
-class FindeIndex {
+class FindIndex {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,7 +8,7 @@ class FindeIndex {
         System.out.println("Enter m");
         int m = sc.nextInt();
 
-        int[][] twoDarray = [n][m]
+        int[][] twoDarray = new int[n][m];
         for (int i = 0; i < twoDarray.length; i++) {
 
             for(int j = 0; j < twoDarray[i].length; j++){
@@ -16,6 +16,9 @@ class FindeIndex {
                 twoDarray[i][j] = sc.nextInt();
             }
         }
-        System.out.println(Arrays.toString(twoDarray));
+        for(int i = 0; i < twoDarray.length; i++){
+              System.out.println(Arrays.toString(twoDarray[i]));
+        }
+      
     }
 }
