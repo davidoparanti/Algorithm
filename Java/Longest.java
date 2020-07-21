@@ -24,7 +24,7 @@ class Longest {
 
     public static void main (String[] args) {
 
-             Scanner sc = new Scanner(System.in); 
+            Scanner sc = new Scanner(System.in); 
             int length = sc.nextInt();
             int[] inputArray = new int[length];
 
@@ -39,13 +39,20 @@ class Longest {
                 if( inputArray[i] > inputArray[first]) {
                     count++;
                     first++;
+                    highest = Math.max(highest, count);
                     
                 } else {
                    highest = Math.max(highest, count);
-                    count = 2; 
+                   first++;
+                   count = 1; 
                 }
             } 
-            System.out.println();
-        System.out.println("The output is " + highest);
+        System.out.println();
+        if(inputArray.length == 1 ) {
+            System.out.println(1);
+        } else{
+              System.out.println("The output is " + highest );
+        }
+      
     }
 }
