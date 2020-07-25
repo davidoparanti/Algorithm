@@ -28,11 +28,22 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class HackerrankTwo {
 
     // Complete the solve function below.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
+        double total;
+        double tip;
+        double tax;
 
+        tip = (double) meal_cost * ((double) tip_percent / 100);
+        tax = (double) meal_cost * ((double) tax_percent / 100);
+        
+        
+        total = Math.round(meal_cost + tip + tax); 
+
+        System.out.println();
+        System.out.println(total);
 
     }
 
