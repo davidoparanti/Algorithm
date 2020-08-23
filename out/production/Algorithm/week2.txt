@@ -1,0 +1,91 @@
+TOPICS/MODULES 
+
+ 
+
+1. Introduction to OOP  
+
+2. Pillars of OOP  
+
+3. Access Modifiers  
+
+4. this and super keyword  
+
+5. final and static 
+
+ 6. Interface and Abstract Classes  
+
+7. String Class  
+
+8. Unit Testing  
+
+9. Intro to Exception handling 
+
+ 
+
+ 
+
+OUTCOMES 
+
+ 
+
+1. Understand Basic OOP concepts  
+
+2. Differentiate use cases for Interfaces and Abstract Classes  
+
+3. Understand how to create classes, interfaces, abstract classes where they are to be used respectively  
+
+4. Using how String, String Buffer and String Builder classes work and their differences. 
+
+ 
+
+TASKS 
+
+ 
+
+https://drive.google.com/drive/folders/1xCEfaSp6dpNFLcArkqfJHoNPoKm1M7VJ?usp=sharing 
+
+ 
+
+ 
+
+LEARNING MATERIALS 
+
+ 
+
+https://www.udemy.com/course/java-the-complete-java-developer-course/  
+
+https://www.educative.io/courses/learn-object-oriented-programming-in-java 
+
+https://www.guru99.com/interface-vs-abstract-class-java.html  
+
+https://www.baeldung.com/java-method-overload-override  
+
+https://javapapers.com/core-java/abstract-and-interface-core-java-2/difference-between-a-java-interface-and-a-java-abstract-class/  
+
+https://medium.com/heuristics/interface-vs-abstract-class-vs-concrete-class-196f20c3af9a  
+
+https://www.baeldung.com/java-method-overload-override  
+
+https://www.javatpoint.com/access-modifiers  
+
+https://www.javatpoint.com/this-keyword  
+
+https://www.javatpoint.com/final-keyword  
+
+https://www.javatpoint.com/java-inner-class  
+
+https://www.baeldung.com/java-oop 
+
+https://www.javatpoint.com/super-keyword  
+
+https://www.javatpoint.com/static-keyword-in-java  
+
+https://junit.org/junit5/docs/current/user-guide/  
+
+ 
+
+ 
+
+ 
+
+ 

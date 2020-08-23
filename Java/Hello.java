@@ -1,7 +1,7 @@
 public class Hello {
 
     public static void main(String[] args) {
-        boolean 
+        //boolean
         byte by = 23;
         short sh = 2134;
         int in = 202020;

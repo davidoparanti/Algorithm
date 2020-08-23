@@ -24,3 +24,4 @@ class SimpleSearch {
      
         System.out.println(isSorted);     
     }
+}
